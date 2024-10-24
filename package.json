@@ -11,6 +11,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "sweetalert2": "^11.14.4",
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },

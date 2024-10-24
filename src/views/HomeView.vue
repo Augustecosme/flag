@@ -1,5 +1,6 @@
 <script setup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 import LoaderComponent from '../components/LoaderComponent.vue';
 import MaisonComponent from '../components/MaisonComponent.vue';
 import SecondeComponent from '../components/GameComponent.vue';
@@ -24,6 +25,8 @@ affiche()
 <style scoped>
 </style>
 =======
+=======
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
 
 </script>
 
@@ -33,4 +36,7 @@ affiche()
 </div>
 
 </template>
+<<<<<<< HEAD
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
+=======
 >>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09

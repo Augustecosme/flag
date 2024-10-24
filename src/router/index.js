@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import HomeView from '@/views/HomeView.vue'
 import GameComponent from '@/components/GameComponent.vue'
 import Game1Component from '@/components/Game1Component.vue'
@@ -31,6 +32,8 @@ const router = createRouter({
 
 export default router
 =======
+=======
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 let isAuthenticated = false;
@@ -67,4 +70,7 @@ export function setAuthentication(status) {
 }
 
 export default router;
+<<<<<<< HEAD
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
+=======
 >>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09

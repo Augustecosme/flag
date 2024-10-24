@@ -1,5 +1,6 @@
 <script setup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 </script>
 
@@ -10,6 +11,8 @@
 <style scoped>
 
 =======
+=======
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { setAuthentication } from '@/router'; 
@@ -182,5 +185,8 @@ button {
   inline-size: 1em;
   vertical-align: middle;
 }
+<<<<<<< HEAD
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
+=======
 >>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
 </style>

@@ -1,5 +1,6 @@
 <script setup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 // import DadComponent from './views/HomeView.vue'
 </script>
 
@@ -15,6 +16,8 @@
   max-height: 100vh;
 }
 =======
+=======
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
 
 </script>
 
@@ -27,5 +30,8 @@ f
 
 <style scoped>
 
+<<<<<<< HEAD
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
+=======
 >>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09
 </style>

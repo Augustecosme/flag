@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+<<<<<<< HEAD
 import HomeView from '@/views/HomeView.vue'
 import GameComponent from '@/components/GameComponent.vue'
 import Game1Component from '@/components/Game1Component.vue'
@@ -29,3 +30,41 @@ const router = createRouter({
 })
 
 export default router
+=======
+import HomeView from '../views/HomeView.vue'
+import LoginView from '../views/LoginView.vue'
+let isAuthenticated = false;
+const routes = [
+  {
+    path: '/home',
+    component: HomeView,
+    meta: { requiresAuth: true }, 
+  },
+  {
+    path: '/',
+    component: LoginView
+  },
+
+];
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
+});
+
+
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(record => record.meta.requiresAuth) && !isAuthenticated) {
+    next('/'); 
+  } else {
+    next(); 
+  }
+});
+
+
+export function setAuthentication(status) {
+  isAuthenticated = status;
+}
+
+export default router;
+>>>>>>> 8e4a5a1afe304824ea801498ca183f3822677d09

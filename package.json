@@ -11,6 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "sweetalert2": "^11.14.4",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
@@ -21,6 +22,7 @@
     "eslint": "^9.12.0",
     "eslint-plugin-vue": "^9.29.0",
     "prettier": "^3.3.3",
+    "sass-embedded": "^1.80.4",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.8",
     "vite-plugin-vue-devtools": "^7.4.6"

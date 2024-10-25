@@ -108,59 +108,7 @@ function verifPays() {
 </template>
 
 <style scoped>
-.loader {
-  height: 22px;
-  border-radius: 20px;
-  color: #4b827b;
-  border: 2px solid;
-  position: relative;
-}
-
-@keyframes l6 {
-  0% {
-    inset: 0
-  }
-}
-
 .container {
   text-align: center;
-}
-
-.score {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 15px;
-  width: 50px;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-}
-
-ul li {
-  display: flex;
-  justify-content: space-between;
-}
-
-li {
-  border: 1px solid;
-  border-radius: 30px;
-  width: 30px;
-  margin: 10px;
-  background-color: white;
-}
-
-p {
-  border: 1px solid;
-  border-radius: 15px;
-  background-color: white;
-  margin: 20px 40% 0px 35%;
-  padding: 15px;
-}
-
-.loader {
-  margin: 20px 40% 0px 35%;
 }
 </style>
